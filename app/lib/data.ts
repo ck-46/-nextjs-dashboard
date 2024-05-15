@@ -9,7 +9,6 @@ import {
   Revenue,
 } from "./definitions";
 import { formatCurrency } from "./utils";
-import { imageOptimizer } from "next/dist/server/image-optimizer";
 import { unstable_noStore as noStore } from "next/cache";
 
 export async function fetchRevenue() {
